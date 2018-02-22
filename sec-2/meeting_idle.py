@@ -1,1 +1,3 @@
-print(1+1)
+# Variables
+first_number = 1 + 1
+print(first_number)

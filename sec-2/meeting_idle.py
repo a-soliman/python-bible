@@ -16,3 +16,20 @@ print('six: ',six)
 print('ten: ', ten)
 print('four: ', four)
 print('one: ', one)
+
+
+# BODMAS
+'''
+    B rackets
+    O rder (squar or power)
+    D evistion
+    M ultilication
+    A ddition
+    S ubtraction
+'''
+
+wrongCalc = 2 * 5 -1
+rightCalc = 2 * ( 5 - 1 )
+
+print('wrong: ', wrongCalc)
+print('right: ', rightCalc)

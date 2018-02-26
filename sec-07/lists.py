@@ -22,3 +22,10 @@ a = a + ['ab', 'a']
 # adding through list()
 a = a + list(str(123))
 
+# adding list to a list
+a = a + [ [7,7,7] ]
+a.append([5,5,5])
+print(a)
+
+
+# instering to a list

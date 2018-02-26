@@ -29,3 +29,8 @@ print(a)
 
 
 # instering to a list
+b = [5, 12, 72, 55, 89, 1]
+b.insert(2, 100)
+b.insert(3, ['a','b','c'])
+
+print(b)

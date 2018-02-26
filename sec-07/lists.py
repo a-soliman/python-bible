@@ -16,3 +16,6 @@ print(a)
 # adding through append
 a.append('Ahmed')
 
+# adding through +
+a = a + ['ab', 'a']
+

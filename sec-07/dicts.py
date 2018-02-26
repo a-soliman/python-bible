@@ -6,3 +6,12 @@ print(students)
 print(students["Dan"])
 
 #adding 
+students["Emma"] = 22
+
+#modifing
+students["Alice"] = students["Alice"] + 2
+print(students)
+
+#deleting
+del students["Bob"]
+print(students)

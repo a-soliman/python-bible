@@ -19,3 +19,6 @@ a.append('Ahmed')
 # adding through +
 a = a + ['ab', 'a']
 
+# adding through list()
+a = a + list(str(123))
+

@@ -35,3 +35,11 @@ dictionary = {"name": "Ahmed", "age": 30, "likes": "JS and Python"}
 print('=' * 10)
 
 print(about(**dictionary))
+
+# PACKING KEYWORD ARGS 
+def foo( **kwargs ):
+	for key, value in kwargs.items():
+		print('{}: {}'.format(key, value))
+
+foo(huda="Female", ziyad="male")
+

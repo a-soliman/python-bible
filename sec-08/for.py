@@ -22,3 +22,7 @@ for key in students.keys():
 	for name in students[key]:
 		if 'a' in name:
 			print(name)
+
+
+for i in range(0,11):
+	print(i)
